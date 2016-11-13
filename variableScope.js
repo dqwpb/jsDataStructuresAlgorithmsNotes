@@ -11,10 +11,9 @@ function myOtherFunction() {
   return myOtherVariable;
 }
 
-console.log(myVariable);
-console.log(myfunction());
+console.log(myVariable); // global
+console.log(myfunction()); // local
 
-console.log(myOtherVariable);
-console.log(myOtherFunction());
-console.log(myOtherVariable);
-
+console.log(myOtherVariable); // global
+console.log(myOtherFunction()); // local
+console.log(myOtherVariable); // local
