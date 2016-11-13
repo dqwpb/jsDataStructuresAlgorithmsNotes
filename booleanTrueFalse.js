@@ -4,10 +4,10 @@ function testTruthy(val) {
 
 /*
   數值類型        布林值
-  undefined       false
-  null            false
-  true            true
-  false           false
+  undefined      false
+  null           false
+  true           true
+  false          false
   數字            +0、-0、NaN是false，其他都是true
   字串            空字串('')是false，其他都是true
   物件            true
